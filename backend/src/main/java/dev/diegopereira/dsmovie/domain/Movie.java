@@ -12,17 +12,11 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.RequiredArgsConstructor;
 import lombok.Setter;
-import lombok.ToString;
 
 @AllArgsConstructor
 @NoArgsConstructor
