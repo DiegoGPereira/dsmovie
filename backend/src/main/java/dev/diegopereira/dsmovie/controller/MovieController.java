@@ -12,7 +12,7 @@ import dev.diegopereira.dsmovie.service.MovieService;
 import lombok.RequiredArgsConstructor;
 
 @RestController
-@RequestMapping("/movie")
+@RequestMapping("/movies")
 @RequiredArgsConstructor
 public class MovieController {
 	
