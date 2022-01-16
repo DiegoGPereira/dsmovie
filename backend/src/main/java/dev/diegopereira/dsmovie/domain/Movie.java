@@ -35,6 +35,6 @@ public class Movie {
 	private Integer count;
 	private String image;
 	
-	@OneToMany(mappedBy = "movie", targetEntity = Score.class, cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+	@OneToMany(mappedBy = "movie", targetEntity = Score.class)
 	private final Set<Score> scores = new HashSet<>();
 }
